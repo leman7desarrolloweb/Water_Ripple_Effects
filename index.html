@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Water Ripple Effects</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+	<section id="page-ripple"></section>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/jquery.ripples-min.js"></script>
+	<script type="text/javascript">
+	     $(document).ready(function(){
+			 $('#page-ripple').ripples({
+				dropRadius: 30, //px
+				perturbance: 0.03,
+			 });
+		 })
+	</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+section {
+	background: url(../image/page-image-3.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
